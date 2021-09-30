@@ -4,8 +4,6 @@ COPY . .
 RUN pip install flask
 RUN pip install requests
 RUN pip install flask-restful
-RUN From flask import Flask
-RUN From flask_restful import Resource, Api, reqparse
 RUN import pandas as pd
 RUN import ast
 RUN pip install gunicorn
