@@ -1,3 +1,6 @@
+pip install flask
+pip install pytest
+pip install requests
 import pytest
 
 @pytest.fixture
