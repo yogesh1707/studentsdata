@@ -1,5 +1,5 @@
 FROM python:3.6-slim-buster
-WORKDIR /app
+ENV PYTHONPATH "${PYTHONPATH}:/app/"
 COPY . .
 RUN pip install flask
 RUN pip install requests
